@@ -6,6 +6,8 @@ class App < Sinatra::Base
     @newteam = params[:newteam]
     erb :newteam
   end
+  
+  
 
 
 end
